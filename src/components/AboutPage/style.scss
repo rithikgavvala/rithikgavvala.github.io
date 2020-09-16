@@ -1,7 +1,8 @@
 @import '../../styles/breakpoints';
 
 .about-page {
-  background-color: #feb92a;
+  background-color: #263238;
+  color:#F9A825;
   min-height: 100vh;
   display: flex;
 	flex: 0 1 auto;
@@ -14,6 +15,32 @@
   @include breakpoint-small-down {
     padding-top: 3rem;
   }
+  .job-row{
+    display: flex;
+  }
+  .job-column{
+    flex: 50%;
+  }
+
+  .job-title{
+    font-size: 1.125rem;
+    font-weight: 400;
+
+  }
+  .job-subheading{
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+
+
+    
+  
+
+ 
+
+
+  
+ 
 
   h1 {
     padding: 1rem 0;
@@ -34,12 +61,14 @@
       align-items: center;
     }
   }
-
-  .about-wrapper {
-
+  .about-container{
+    display: flex;
+    > .column {
+      flex: 70%;
+    }
+    > .about-content {
+      width: 30%;
     
-    .about-content {
-      
       font-size: 0.875rem;
       line-height: 1.5rem;
       
@@ -61,4 +90,7 @@
     }
   }
 
+
+
 }
+

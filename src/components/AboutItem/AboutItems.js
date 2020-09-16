@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import './style.scss';
 import {FaPython,FaJava} from 'react-icons/fa'
 import {DiJavascript1, DiReact, DiBitbucket, DiGithubBadge} from 'react-icons/di'
+import { Timeline, Event } from "react-timeline-scribble";
 
 
 
@@ -13,18 +14,18 @@ function AboutItems(props, context) {
   const [description, setDescription] = useState("")
   const [isHidden, setHidden] = useState(false)
   const [highlight, setHighlight] = useState(false)
-  const [exp1, setExp1] = useState("#1f2024")
-  const [exp2, setExp2] = useState("#1f2024")
-  const [exp3, setExp3] = useState("#1f2024")
+  const [exp1, setExp1] = useState("#37474F")
+  const [exp2, setExp2] = useState("#37474F")
+  const [exp3, setExp3] = useState("#37474F")
 
 
   const handleClick = val => {
   
 
     if (val == 0){
-      setExp1("#606470")
-      setExp2("#1f2024")
-      setExp3("#1f2024")
+      setExp1("#455A64")
+      setExp2("#37474F")
+      setExp3("#37474F")
       setDescription(
         <ul>
               <li>
@@ -50,9 +51,9 @@ function AboutItems(props, context) {
   
     }
     else if (val == 1){
-      setExp1("#1f2024")
-      setExp2("#606470")
-      setExp3("#1f2024")
+      setExp1("#37474F")
+      setExp2("#455A64")
+      setExp3("#37474F")
       setDescription(<ul>
         <li>
         Created and designed a user interface in React.js for identifying discrepancies in member enrollment health insurance data throughout the transaction pipeline utilizing Redux for state management.
@@ -70,10 +71,11 @@ function AboutItems(props, context) {
         
         )
     }
+   
     else if(val == 2){
-      setExp1("#1f2024")
-      setExp2("#1f2024")
-      setExp3("#606470")
+      setExp1("#37474F")
+      setExp2("#37474F")
+      setExp3("#455A64")
       setDescription(
         <ul>
           <li>

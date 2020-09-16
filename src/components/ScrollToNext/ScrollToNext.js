@@ -14,9 +14,9 @@ class ScrollToNext extends Component {
 
     return (
       <div className="scroll-to-next" onClick={(e) => this.scrollToNext()}>
-        <div className="arrow bounce" style={{ color: "#1E1E1E" }}>
+        <div className="arrow bounce" style={{ color: "#F9A825" }}>
           <div className="scroll-text">Click Me</div>
-          <button style ={{ background: "none", border: "none"}} className="fa fa-chevron-down fa-2x" href="#" />
+          <button style ={{ background: "none", border: "none", color: "#F9A825" }} className="fa fa-chevron-down fa-2x" href="#" />
         </div>
       </div>
     );

@@ -8,21 +8,21 @@ import './style.scss';
 const PortfolioPage = (props, context) => {
 
   return (
-    <div className="portfolio-page" style={{ backgroundColor: "#feb92a" }}>
+    <div className="portfolio-page" style={{ backgroundColor: "#F9A825" }}>
       <div className="content-grid">
-        <h1>Portfolio</h1>
+        <h1 style={{color:'#263238' }}>Portfolio</h1>
         <div className="portfolio-wrapper">
           <style jsx="true">
             {`
             
               .portfolio-item {
-                color: #feb92a;
+                color: #F9A825;
               }
               .portfolio-item a {
-                color: #feb92a;
+                color: #F9A825;
               }
               .portfolio-item__links a:hover {
-                border-bottom: 2px solid #feb92a;
+                border-bottom: 2px solid #F9A825;
 
               }
             `}

@@ -6,7 +6,9 @@
   flex: 0 1 auto;
   flex-direction: column;
   justify-content: center;
-  background-color: #feb92a;
+  background-color: #F9A825;
+
+
 
   main {
     display: flex;
@@ -20,12 +22,25 @@
       padding: 4.25rem 1.5rem 1rem;
     }
 
+ 
+
     .intro-wrapper {
       flex: auto;
       display: flex;
       flex-direction: column;
       justify-content: center;
       text-align: center;
+
+      > .intro-pic {
+        margin-left: auto;
+        margin-right:auto;
+        margin-bottom: 2rem;
+        height:15rem;
+        width: 15rem;
+        border-radius:50%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      }
 
       > .intro-name {
         font-family: 'Reem Kufi', sans-serif;
